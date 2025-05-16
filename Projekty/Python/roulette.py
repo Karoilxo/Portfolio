@@ -103,7 +103,6 @@ while graj_dalej and Portfel > 0:
         print(f"twój balans wynosi {Portfel}$")
 
     else:
-        Portfel = int(Portfel) - int(stawka)
         print(F"Niestety przegrałeś, twój balans wynosi {Portfel}$")
 
     if Portfel > 0:
