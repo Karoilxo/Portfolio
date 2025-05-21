@@ -35,7 +35,6 @@ while graj_dalej and Portfel > 0:
         valid = True
         valid_bets = []
         for bet in bet_int:
-            # Sprawdź liczby
             if bet.isdigit():
                 num = int(bet)
                 if int(bet) in pola:
@@ -44,7 +43,6 @@ while graj_dalej and Portfel > 0:
                     print(f"❌ Nieprawidłowy numer: {bet}")
                     valid = False
                     break
-            # Sprawdź kolory
             elif bet.lower() in ['red', 'black']:
                 valid_bets.append(bet.lower())
             else:
@@ -53,7 +51,7 @@ while graj_dalej and Portfel > 0:
                 break
 
         if valid:
-            break  # Wszystkie pola OK
+            break 
         else:
             print("Spróbuj ponownie!")
             """    if bet_str not in pola:
