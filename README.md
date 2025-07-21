@@ -1,4 +1,4 @@
 # Portfolio
-Repozytorium przedstawiające - programy / strony
+Zbiór projektów
 
 [Python](/Projekty/Python)
